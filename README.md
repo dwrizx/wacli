@@ -36,6 +36,20 @@ Run (local build only):
 
 - `./dist/wacli --help`
 
+## Uninstall
+
+### If installed via Homebrew
+
+- `brew uninstall wacli`
+
+### If built locally
+
+- Remove the built binary directory: `rm -rf ./dist`
+
+### Optional: remove local data/session store
+
+- `rm -rf ~/.wacli`
+
 ## Quick start
 
 Default store directory is `~/.wacli` (override with `--store DIR`).
